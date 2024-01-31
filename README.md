@@ -12,10 +12,17 @@ $ ./build.sh
 
 ## Powered by
 
-* [ruby-wasm-emscripten](https://www.npmjs.com/package/@ruby/head-wasm-emscripten)
+* [ruby-wasm-emscripten](httpemccs://www.npmjs.com/package/@ruby/head-wasm-emscripten)
 * [xterm-pty](https://xterm-pty.netlify.app/)
 
 ## TODO
 
-* abandon `GC.disable`
+* abandon `GC.disable`emcc
 * `SIGWINCH` signal support
+* In build.sh check if all the dependencies are installed on the system
+
+## Dependencies
+
+- ruby 3.3.0 
+- cargo
+- emcc
